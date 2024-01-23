@@ -68,16 +68,18 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+
 }
 
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: rgba(36, 136, 106, 0.685);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  
 }
 .section-title::after {
   position: absolute;
@@ -88,7 +90,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color:  rgba(36, 136, 106, 0.685);
 }
 
 .section {
@@ -191,8 +193,10 @@ img {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
+
+
 .home__title-color {
-  color: var(--first-color);
+  color: rgba(36, 136, 106, 0.685);
 }
 .home__social {
   display: flex;
@@ -211,13 +215,14 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+
 }
 .home__blob {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 360px;
+  width: 40rem;
+
 }
 
 /*BUTTONS*/
@@ -281,6 +286,11 @@ img {
   display: flex;
   align-items: center;
 }
+
+.c-sharp{
+  width:100px;
+  height: 35px;
+}
 .skills__bar {
   position: absolute;
   left: 0;
@@ -299,26 +309,78 @@ img {
 .skills__js {
   width: 65%;
 }
-.skills__ux {
+.skills__java {
   width: 85%;
 }
 .skills__img {
-  border-radius: 0.5rem;
+  border-radius: 3.5rem;
+  height: initial;
 }
+.skills_c{
+height:100%;
+
+}
+
+.kotlin{
+  width:40px;
+  height: 35px;
+}
+
+.dotnet{
+  width:40px;
+  height: 35px;
+}
+.bootstrap{
+  width:40px;
+  height: 35px;
+
+}
+
 
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
 }
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0px 4px 25px rgba(73, 184, 248, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  
 }
 .work__img img {
   transition: 1s;
+
+  height: auto;
+  padding: 2px;
 }
 .work__img img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.work__name{
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  padding: 6%;
+  
+
+
+}
+
+.work__img__wing{
+  width: auto;
+  height: auto;
+  box-shadow: 0px 4px 25px rgba(73, 184, 248, 0.15);
+  border-radius: 0.5rem;
+  transition: 1s;
+
+  height: 194px;
+  padding-left: 2px;
+}
+
+.work__img__wing:hover {
   transform: scale(1.1);
 }
 
